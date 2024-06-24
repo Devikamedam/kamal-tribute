@@ -1,0 +1,26 @@
+
+#header {
+    background-color: rgb(107, 104, 104);
+    color:rgb(218, 198, 198);
+    text-align:center;
+    padding:35px;
+    border:1px solid black;
+}
+#header h3 {text-decoration: underline;}
+table,th,td {
+    border:1px solid black;
+}
+table th{ text-align:center;}
+#left, #right {
+    float:left;
+    width:35%;
+}
+#main{ 
+    float: left;
+    width:50%;
+} 
+@media only screen and (max-width:800px) {
+    #left, #main ,#right {
+        width:100%;
+    }
+}       
