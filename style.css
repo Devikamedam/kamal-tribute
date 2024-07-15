@@ -19,8 +19,3 @@ table th{ text-align:center;}
     float: left;
     width:50%;
 } 
-@media only screen and (max-width:800px) {
-    #left, #main ,#right {
-        width:100%;
-    }
-}       
